@@ -21,7 +21,7 @@ if __name__ == '__main__':
         print(filho.nome)
     luciano.sobrinho = 'santos'
     del luciano.filhos
-    luciano.olhos = 1
+    luciano.olhos = 4
     del luciano.olhos
 
     print(luciano.__dict__)
