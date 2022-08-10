@@ -24,14 +24,11 @@ if __name__ == '__main__':
     luciano.olhos = 1
     del luciano.olhos
 
-
     print(luciano.__dict__)
     print(Davidson.__dict__)
-    Pessoa.olhos
+    Pessoa.olhos = 3
     print(Pessoa.olhos)
     print(luciano.olhos)
     print(Davidson.olhos)
     print(id(Pessoa.olhos), id(luciano.olhos), id(Davidson.olhos))
-
-
 
